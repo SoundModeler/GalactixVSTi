@@ -15,9 +15,6 @@ The source code may not look as so well organized and commented because:
 I used my own source code for gui. The logic behind this library is that 
 every control corresponds to one class and one .hpp file and therefore there is no resource file in the project.
 
-#Donations
-http://paypal.me/Akritov
-
 #Compilation
 MC Visual Studio 6.0
 There are 2 version for fast VSTi development: 
