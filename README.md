@@ -11,15 +11,15 @@ The source code may not look as so well organized and commented because:
 1. it was written when I just started to learn and was not so experienced;
 2. it was exciting and took only 2 months from start to the release of the final version of GalactiX! 
 
-#GUI
+# GUI
 I used my own source code for gui. The logic behind this library is that 
 every control corresponds to one class and one .hpp file and therefore there is no resource file in the project.
 
-#Compilation
+# Compilation
 MC Visual Studio 6.0
 There are 2 version for fast VSTi development: 
 1/ as cpp.exe file that allows to play the same Galactix as .exe from PC keyboard without VST host app.
-2/ and as actual Galectix.dll. The only difference in code is the file compiletype.h
+2/ and as actual Galactix.dll. The only difference in code is the file compiletype.h
 You have to choose by commenting
 #define EXE_COMPILE
 ///#define VST_COMPILE
@@ -27,5 +27,5 @@ You have to choose by commenting
 
 There is Windows-only version.
 
-#Licensing 
+# Licensing 
 GPL for open source and non-GPL for commercial usage. 
